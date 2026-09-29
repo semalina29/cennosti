@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Сколько на самом деле стоит это обучение · Школа Александры Самородовой</title>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+
+:root{--ink:#16141a;--muted:#6b6675;--line:#e8e2ee;--red:#e8001d;--pink:#ff4d6d;
+ --violet:#7a2ff2;--blue:#2e6bff;--lime:#00c48c;--amber:#ffb020;--cream:#fdf9f4;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Manrope',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;}
+.wrap{max-width:840px;margin:0 auto;padding:0 20px 70px;}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:20px 0 14px;flex-wrap:wrap;}
+.brand{font-family:'Unbounded',sans-serif;font-size:.62rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase;}
+.brand span{color:var(--muted);font-weight:600;}
+.badge{font-family:'Unbounded',sans-serif;font-size:.58rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;
+ background:linear-gradient(120deg,var(--violet),var(--pink));color:#fff;padding:8px 14px;border-radius:30px;}
+.hero{background:linear-gradient(140deg,#7a2ff2 0%,#e8001d 55%,#ff8a3d 100%);border-radius:30px;padding:38px 32px;color:#fff;margin-top:8px;position:relative;overflow:hidden;}
+.hero::after{content:'';position:absolute;right:-70px;top:-70px;width:280px;height:280px;border-radius:50%;background:rgba(255,255,255,.12);}
+.hero .eyebrow{font-family:'Unbounded',sans-serif;font-size:.6rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.85);margin-bottom:14px;position:relative;}
+.hero h1{font-family:'Unbounded',sans-serif;font-weight:900;font-size:2rem;line-height:1.14;letter-spacing:-.02em;position:relative;}
+@media(max-width:600px){.hero h1{font-size:1.42rem;}.hero{padding:28px 22px;}}
+.hero .lead{margin-top:16px;font-size:1.05rem;color:rgba(255,255,255,.93);position:relative;}
+.lbl{font-family:'Unbounded',sans-serif;font-size:.6rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;margin:48px 0 10px;display:inline-block;padding:7px 14px;border-radius:20px;}
+.lbl.v{background:rgba(122,47,242,.1);color:var(--violet);}
+.lbl.r{background:rgba(232,0,29,.09);color:var(--red);}
+.lbl.b{background:rgba(46,107,255,.1);color:var(--blue);}
+.lbl.g{background:rgba(0,196,140,.12);color:#00996d;}
+.lbl.a{background:rgba(255,176,32,.16);color:#a86b00;}
+h2{font-family:'Unbounded',sans-serif;font-weight:800;font-size:1.42rem;line-height:1.22;letter-spacing:-.015em;margin-bottom:14px;}
+@media(max-width:600px){h2{font-size:1.14rem;}}
+h2 .r{color:var(--red);}h2 .v{color:var(--violet);}h2 .b{color:var(--blue);}h2 .g{color:#00996d;}
+p{margin-bottom:12px;font-size:1.03rem;}
+p b{font-weight:800;}
+.steps{margin-top:6px;}
+.step{display:flex;gap:16px;align-items:flex-start;background:#fff;border-radius:18px;padding:18px 20px;margin-bottom:10px;border:1px solid var(--line);}
+.step .ic{flex:0 0 auto;width:34px;height:34px;border-radius:12px;display:flex;align-items:center;justify-content:center;
+ font-family:'Unbounded',sans-serif;font-weight:800;font-size:.8rem;color:#fff;background:linear-gradient(135deg,var(--violet),var(--pink));}
+.step .st{font-size:1rem;line-height:1.45;}
+.big{background:var(--ink);color:#fff;border-radius:26px;padding:30px 28px;margin-top:18px;}
+.big h3{font-family:'Unbounded',sans-serif;font-weight:900;font-size:1.2rem;margin-bottom:12px;}
+.big p{color:rgba(255,255,255,.88);}
+.big p b{color:#fff;}
+.big .hl{color:#ff6b85;font-weight:800;}
+.callout{background:linear-gradient(120deg,#fff6e8,#ffeedd);border-radius:20px;padding:22px 24px;margin-top:16px;border:1px solid #ffd9a8;font-size:1.03rem;line-height:1.5;}
+.callout b{font-weight:800;color:#a85c00;}
+.grad{background:linear-gradient(135deg,#eef2ff,#f6edff);border-radius:24px;padding:26px;margin-top:16px;border:1px solid #ddd2f7;}
+.grad h3{font-family:'Unbounded',sans-serif;font-weight:900;font-size:1.12rem;color:var(--violet);margin-bottom:12px;}
+.grad ul{list-style:none;}
+.grad li{padding:9px 0 9px 26px;position:relative;font-size:1rem;line-height:1.45;}
+.grad li::before{content:'✓';position:absolute;left:0;color:var(--violet);font-weight:900;}
+.money{background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;margin-top:6px;}
+.mrow{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:15px 22px;border-top:1px solid var(--line);}
+.mrow:first-child{border-top:none;}
+.mrow .s{font-size:1rem;font-weight:700;}
+.mrow .p2{font-family:'Unbounded',sans-serif;font-size:.84rem;font-weight:800;color:var(--red);white-space:nowrap;}
+.calc{background:linear-gradient(140deg,#00c48c,#00a3ff);border-radius:26px;padding:30px 28px;color:#fff;margin-top:16px;}
+.calc h3{font-family:'Unbounded',sans-serif;font-weight:900;font-size:1.22rem;margin-bottom:16px;}
+.crow{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:14px 0;border-top:1px solid rgba(255,255,255,.22);font-size:1rem;}
+.crow:first-of-type{border-top:none;}
+.crow b{font-family:'Unbounded',sans-serif;font-weight:900;font-size:1.05rem;white-space:nowrap;}
+.calc .fin{margin-top:16px;background:rgba(255,255,255,.2);border-radius:16px;padding:18px 20px;font-size:1.04rem;line-height:1.45;}
+.calc .fin b{font-weight:800;}
+.case{display:flex;gap:20px;align-items:center;flex-wrap:wrap;background:#fff;border:1px solid var(--line);border-radius:24px;padding:22px;margin-top:16px;}
+.case img{width:110px;height:110px;border-radius:22px;object-fit:cover;flex:0 0 auto;}
+.case .cn{font-family:'Unbounded',sans-serif;font-weight:900;font-size:1.2rem;}
+.case .cd{font-size:.97rem;color:var(--muted);margin-top:4px;max-width:44ch;}
+.proof{background:#fff;border:1px solid var(--line);border-radius:22px;padding:20px;margin-top:12px;text-align:center;}
+.proof .sum{font-family:'Unbounded',sans-serif;font-weight:900;font-size:1.6rem;color:var(--lime);margin-bottom:12px;}
+.proof img{display:block;width:100%;max-width:380px;margin:0 auto;height:auto;border-radius:12px;border:1px solid var(--line);}
+.proof .cap{font-size:.88rem;color:var(--muted);margin-top:10px;}
+.prog{background:linear-gradient(140deg,#16141a,#2a1f3d);color:#fff;border-radius:26px;padding:30px 28px;margin-top:16px;}
+.prog h3{font-family:'Unbounded',sans-serif;font-weight:900;font-size:1.22rem;margin-bottom:6px;}
+.prog .sm{color:rgba(255,255,255,.7);font-size:.95rem;margin-bottom:18px;}
+.prog ul{list-style:none;}
+.prog li{padding:11px 0 11px 28px;position:relative;font-size:1rem;line-height:1.42;border-top:1px solid rgba(255,255,255,.1);}
+.prog li:first-child{border-top:none;}
+.prog li::before{content:'';position:absolute;left:0;top:20px;width:14px;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--violet),var(--pink));}
+.reviews{background:radial-gradient(120% 120% at 15% 0%,#1c1c1c,#0b0b0b 60%);color:#fff;border-radius:24px;padding:34px 30px;text-align:center;margin-top:16px;}
+.reviews h2{color:#fff;}
+.reviews p{color:rgba(255,255,255,.82);max-width:54ch;margin:0 auto 12px;}
+.rn{display:flex;justify-content:center;gap:26px;flex-wrap:wrap;margin:20px 0;}
+.rn div b{display:block;font-family:'Unbounded',sans-serif;font-size:1.9rem;font-weight:900;line-height:1;}
+.rn div span{display:block;font-size:.78rem;color:rgba(255,255,255,.6);margin-top:6px;}
+.reviews a{display:inline-block;margin-top:6px;background:#fff;color:var(--ink);text-decoration:none;font-family:'Unbounded',sans-serif;font-weight:700;font-size:.8rem;padding:15px 30px;border-radius:13px;}
+.linkbtn{display:block;text-align:center;text-decoration:none;font-family:'Unbounded',sans-serif;font-weight:800;font-size:.82rem;padding:19px 26px;border-radius:16px;margin-top:14px;}
+.linkbtn.dark{background:var(--ink);color:#fff;}
+.why18{background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;margin-top:6px;}
+.wrow{display:flex;gap:14px;align-items:flex-start;padding:18px 22px;border-top:1px solid var(--line);}
+.wrow:first-child{border-top:none;}
+.wrow .ic2{flex:0 0 auto;width:28px;height:28px;border-radius:9px;background:rgba(232,0,29,.1);color:var(--red);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.82rem;font-family:'Unbounded',sans-serif;}
+.wrow .t2{font-size:1rem;line-height:1.45;}
+.reveal{display:block;width:100%;border:none;border-radius:18px;padding:24px;margin-top:18px;cursor:pointer;
+ background:linear-gradient(120deg,var(--red),var(--violet));color:#fff;font-family:'Unbounded',sans-serif;font-weight:900;font-size:1rem;}
+#priceZone{display:none;}
+.pricecard{background:radial-gradient(120% 130% at 12% 0%,#241f2e,#100d16 62%);color:#fff;border-radius:24px;padding:28px 30px;text-align:center;margin-top:16px;}
+.pricecard .today{font-size:.92rem;color:rgba(255,255,255,.6);margin-bottom:14px;}
+.pricecard .today b{color:#fff;font-weight:700;}
+.pricecard .plabel{font-family:'Unbounded',sans-serif;font-size:.6rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--pink);margin-bottom:10px;}
+.pricecard .pbig{font-family:'Unbounded',sans-serif;font-weight:900;font-size:2.3rem;line-height:1;margin-bottom:12px;}
+.pricecard .pnote{font-size:.94rem;color:rgba(255,255,255,.7);max-width:46ch;margin:0 auto;}
+.pricecard .tbox{margin-top:20px;background:rgba(255,255,255,.07);border-radius:18px;padding:18px;}
+.pricecard .tlab{font-family:'Unbounded',sans-serif;font-size:.58rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.55);margin-bottom:12px;}
+.deadline{background:var(--ink);color:#fff;border-radius:24px;padding:28px 30px;text-align:center;margin-top:16px;}
+.deadline .lab{font-family:'Unbounded',sans-serif;font-size:.6rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--pink);margin-bottom:12px;}
+.deadline h3{font-family:'Unbounded',sans-serif;font-weight:900;font-size:1.28rem;margin-bottom:8px;}
+.deadline p{color:rgba(255,255,255,.8);font-size:.97rem;margin:0;}
+.dtimer{display:flex;justify-content:center;gap:10px;margin-top:20px;}
+.tunit{background:rgba(255,255,255,.1);border-radius:14px;padding:12px 8px;min-width:70px;}
+.tnum{font-family:'Unbounded',sans-serif;font-weight:900;font-size:1.5rem;line-height:1;}
+.tcap{font-size:.62rem;color:rgba(255,255,255,.65);text-transform:uppercase;letter-spacing:.1em;margin-top:6px;}
+.offer{background:linear-gradient(140deg,#e8001d,#7a2ff2);border-radius:28px;padding:32px 30px;color:#fff;margin-top:16px;}
+.offer .tag{display:inline-block;background:rgba(255,255,255,.2);font-family:'Unbounded',sans-serif;font-size:.58rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;padding:8px 14px;border-radius:20px;margin-bottom:14px;}
+.offer h2{color:#fff;margin-bottom:6px;}
+.offer .was{color:rgba(255,255,255,.75);font-size:.95rem;}
+.offer .price{font-family:'Unbounded',sans-serif;font-weight:900;font-size:2.6rem;line-height:1;margin:8px 0 14px;}
+.offer p{color:rgba(255,255,255,.92);}
+.plan{background:rgba(255,255,255,.15);border-radius:16px;padding:16px 20px;margin-top:10px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;}
+.plan .l b{display:block;font-family:'Unbounded',sans-serif;font-weight:800;font-size:1rem;}
+.plan .l small{display:block;font-size:.83rem;color:rgba(255,255,255,.75);margin-top:3px;}
+.plan .p3{font-family:'Unbounded',sans-serif;font-weight:900;font-size:1.22rem;white-space:nowrap;}
+.free{background:rgba(255,255,255,.18);border-radius:14px;padding:14px 18px;margin-top:12px;font-size:.96rem;line-height:1.45;}
+.cta{display:block;text-align:center;background:#fff;color:var(--red);text-decoration:none;font-family:'Unbounded',sans-serif;font-weight:800;font-size:.86rem;padding:19px 26px;border-radius:16px;margin-top:20px;}
+footer{margin-top:34px;padding-top:18px;border-top:1px solid var(--line);font-size:.78rem;color:var(--muted);text-align:center;}
+
+.skills{background:#fff;border:1px solid var(--line);border-radius:24px;padding:24px;margin-top:14px;}
+.sk{display:flex;gap:13px;align-items:flex-start;padding:12px 14px;border:2px solid var(--line);border-radius:13px;margin-bottom:8px;cursor:pointer;transition:.15s;}
+.sk:hover{border-color:#c9b6f5;}
+.sk.on{border-color:var(--violet);background:#f8f3ff;}
+.sk .bx{flex:0 0 auto;width:21px;height:21px;border-radius:7px;border:2px solid var(--violet);margin-top:1px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:.75rem;font-weight:900;}
+.sk.on .bx{background:var(--violet);}
+.sk .tx{font-size:.98rem;line-height:1.35;}
+.sk .pr{margin-left:auto;font-family:'Unbounded',sans-serif;font-weight:800;font-size:.76rem;color:var(--muted);white-space:nowrap;}
+.skbtn{display:block;width:100%;margin-top:16px;border:none;border-radius:16px;padding:19px;cursor:pointer;background:linear-gradient(120deg,var(--violet),var(--pink));color:#fff;font-family:'Unbounded',sans-serif;font-weight:800;font-size:.9rem;}
+#res{display:none;}
+.bars{background:var(--ink);border-radius:26px;padding:30px 28px;color:#fff;margin-top:14px;}
+.bars h3{font-family:'Unbounded',sans-serif;font-weight:900;font-size:1.25rem;margin-bottom:20px;}
+.bar{margin-bottom:20px;}
+.bar .bl{display:flex;justify-content:space-between;align-items:baseline;font-size:.98rem;margin-bottom:8px;}
+.bar .bl b{font-family:'Unbounded',sans-serif;font-weight:900;font-size:1.15rem;}
+.track{height:16px;background:rgba(255,255,255,.14);border-radius:10px;overflow:hidden;}
+.fill{height:100%;border-radius:10px;transition:width .8s ease;}
+.f1{background:linear-gradient(90deg,#ff6b85,#e8001d);}
+.f2{background:linear-gradient(90deg,#9b8cff,#7a2ff2);}
+.f3{background:linear-gradient(90deg,#00c48c,#00a3ff);}
+.bars .note2{background:rgba(255,255,255,.12);border-radius:16px;padding:18px 20px;font-size:1.02rem;line-height:1.45;margin-top:6px;}
+.mtab{background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;margin-top:8px;}
+.mrow2{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:13px 20px;border-top:1px solid var(--line);font-size:.98rem;line-height:1.35;}
+.mrow2:first-child{border-top:none;}
+.mrow2 b{font-family:'Unbounded',sans-serif;font-weight:800;font-size:.92rem;color:var(--red);white-space:nowrap;}
+.mtot{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:20px;background:var(--ink);color:#fff;font-size:1.05rem;}
+.mtot b{font-family:'Unbounded',sans-serif;font-weight:900;font-size:1.35rem;color:#ff6b85;white-space:nowrap;}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:8px;}
+@media(max-width:600px){.stats{grid-template-columns:1fr;}}
+.st2{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px 20px;}
+.st2 .num{font-family:'Unbounded',sans-serif;font-weight:900;font-size:1.6rem;line-height:1;color:var(--red);}
+.st2.up .num{color:#00996d;}
+.st2 .tx{font-size:.95rem;line-height:1.4;margin-top:9px;}
+.st2 .src{font-size:.76rem;color:var(--muted);margin-top:8px;}
+.fomo{background:linear-gradient(140deg,#e8001d,#7a2ff2);border-radius:28px;padding:32px 30px;color:#fff;margin-top:16px;}
+.fomo .tag{display:inline-block;background:rgba(255,255,255,.2);font-family:'Unbounded',sans-serif;font-size:.6rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;padding:8px 14px;border-radius:20px;margin-bottom:14px;}
+.fomo h3{font-family:'Unbounded',sans-serif;font-weight:900;font-size:1.42rem;line-height:1.18;margin-bottom:14px;}
+.fomo p{color:rgba(255,255,255,.93);}
+.fomo ul{list-style:none;margin-top:12px;}
+.fomo li{padding:10px 0 10px 28px;position:relative;font-size:1.02rem;line-height:1.45;border-top:1px solid rgba(255,255,255,.18);}
+.fomo li:first-child{border-top:none;}
+.fomo li::before{content:'✓';position:absolute;left:0;font-weight:900;color:#ffd166;}
+.seats{margin-top:18px;background:rgba(255,255,255,.18);border-radius:16px;padding:18px 20px;text-align:center;}
+.seats b{display:block;font-family:'Unbounded',sans-serif;font-weight:900;font-size:1.8rem;margin-bottom:4px;}
+.fomo .cta2{display:block;text-align:center;background:#fff;color:var(--red);text-decoration:none;font-family:'Unbounded',sans-serif;font-weight:800;font-size:.88rem;padding:20px 26px;border-radius:16px;margin-top:20px;}
+.fcard{background:#fff;border:1px solid var(--line);border-radius:20px;padding:20px 22px;margin-bottom:10px;}
+.fcard .fh{font-family:'Unbounded',sans-serif;font-weight:800;font-size:1rem;margin-bottom:8px;color:var(--violet);}
+.fcard p{font-size:1rem;line-height:1.45;margin:0;}
+.fcard p+p{margin-top:9px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="top">
+    <div class="brand">Школа Александры Самородовой · <span>маркетолог в сфере рекламы</span></div>
+    <div class="badge">18 поток · последний</div>
+  </div>
+
+  <div class="hero">
+    <div class="eyebrow">Разбор ценности</div>
+    <h1>Сколько на самом деле стоит то, что вы получаете на обучении</h1>
+    <p class="lead">Здесь не будет уговоров. Только арифметика.<br><br>Мы разберём программу на части и посчитаем, сколько стоит каждое направление отдельным обучением на рынке. А потом посмотрим, нужны ли эти навыки вообще - и что говорят об этом вакансии.</p>
+  </div>
+
+  <div class="lbl v">С чего начнём</div>
+  <h2>Вы покупаете не курс - <span class="v">вы покупаете набор навыков</span></h2>
+  <p>Когда человек смотрит на стоимость обучения, он видит одну цифру и пугается. А правильно смотреть иначе: разобрать её на части и понять, сколько стоит каждая часть по отдельности.</p>
+  <p>Вот что входит в профессию «маркетолог в сфере рекламы» - и всё это вы получаете в одной программе:</p>
+  <div class="skills">
+    <div class="sk on"><span class="bx">✓</span><span class="tx">Анализ рынка, ниши и конкурентов</span></div>
+    <div class="sk on"><span class="bx">✓</span><span class="tx">Целевая аудитория до сегментов и позиционирование</span></div>
+    <div class="sk on"><span class="bx">✓</span><span class="tx">Маркетинговая стратегия под любого клиента</span></div>
+    <div class="sk on"><span class="bx">✓</span><span class="tx">Юнит-экономика: расчёт окупаемости до запуска</span></div>
+    <div class="sk on"><span class="bx">✓</span><span class="tx">Метрики и диагностика: где сломался результат</span></div>
+    <div class="sk on"><span class="bx">✓</span><span class="tx">Закупка рекламы во всех семи социальных сетях</span></div>
+    <div class="sk on"><span class="bx">✓</span><span class="tx">Рекламные материалы и сценарии</span></div>
+    <div class="sk on"><span class="bx">✓</span><span class="tx">Контент клиенту и сценарии под любую нишу</span></div>
+    <div class="sk on"><span class="bx">✓</span><span class="tx">Контент-завод: UGC-креаторы, амбассадоры</span></div>
+    <div class="sk on"><span class="bx">✓</span><span class="tx">Воронки продаж и путь клиента</span></div>
+    <div class="sk on"><span class="bx">✓</span><span class="tx">Контекстная реклама</span></div>
+    <div class="sk on"><span class="bx">✓</span><span class="tx">Таргетированная реклама ВКонтакте</span></div>
+    <div class="sk on"><span class="bx">✓</span><span class="tx">Офлайн-реклама: ТВ, радио, СМИ, наружка</span></div>
+    <div class="sk on"><span class="bx">✓</span><span class="tx">PR и работа с инфоповодами</span></div>
+    <div class="sk on"><span class="bx">✓</span><span class="tx">Продвижение по городам и регионам</span></div>
+    <div class="sk on"><span class="bx">✓</span><span class="tx">Маркировка, законы о рекламе, договоры</span></div>
+  </div>
+  <div class="callout">Шестнадцать направлений. <b>И почти каждое из них на рынке продаётся как отдельное обучение</b> - у разных экспертов, в разное время и за отдельные деньги.<br><br>Ниже посчитаем, во что это обходится.</div>
+
+  <div class="lbl r">Зачем нужно всё это сразу</div>
+  <h2>Почему специалист <span class="r">должен уметь многое</span></h2>
+  <p>Ответ простой: так устроен клиент.</p>
+  <div class="steps">
+    <div class="step"><div class="ic">01</div><div class="st"><b>Клиент не готов платить пяти подрядчикам.</b> Ему нужен один человек, который закроет продвижение целиком - это дешевле, быстрее и не нужно никого между собой согласовывать</div></div>
+    <div class="step"><div class="ic">02</div><div class="st"><b>Узкий специалист закрывает одну потребность, и то не до конца.</b> Например, закупщик приводит трафик - но на результат клиента в деньгах он почти не влияет, потому что всё остальное делает кто-то другой</div></div>
+    <div class="step"><div class="ic">03</div><div class="st"><b>А для вас это выгодно вдвойне.</b> Комплексная работа с одним клиентом стоит от 200 000 ₽, тогда как отдельная услуга - в разы меньше. Платят не за навык, а за закрытую задачу</div></div>
+    <div class="step"><div class="ic">04</div><div class="st"><b>И такой специалист оказывается вне конкуренции.</b> Он не один из десятков похожих - он единственный, кто может решить вопрос клиента целиком</div></div>
+  </div>
+  <div class="stats">
+    <div class="st2"><div class="num">20-30%</div><div class="tx">кандидатов реально подходят под задачи, которые сейчас ставят в вакансиях</div><div class="src">AdIndex, 2025</div></div>
+    <div class="st2 up"><div class="num">+15% vs +8,5%</div><div class="tx">рынок маркетинга растёт почти вдвое быстрее, чем само размещение рекламы</div><div class="src">АКАР, 2026</div></div>
+  </div>
+  <div class="big">
+    <h3>И кто на рынке это умеет</h3>
+    <p>Специалистов, которые владеют всем этим набором, на рынке два типа.</p>
+    <p><b>Первые - мои ученики последних потоков</b>, потому что я учу этому целиком.</p>
+    <p><b>Вторые - те, кто годами собирал эти навыки в одиночку</b>, покупая обучение за обучением и тратя на это огромные деньги и время.</p>
+    <p style="margin-top:14px">Третьего варианта нет: <span class="hl">ни одного обучения, где всё это давали бы сразу, на рынке просто не существует.</span></p>
+    <p style="margin-top:14px">И я собрала программу такой не для объёма. А потому что <b>это реально нужно рынку и реально выгодно специалисту</b> - особенно тому, кто начинает с нуля и у кого нет возможности отдать миллион за десяток отдельных обучений.</p>
+  </div>
+
+  <div class="lbl a">Теперь арифметика</div>
+  <h2>Сколько стоило бы собрать это <span class="r">по отдельности</span></h2>
+  <p>Все шестнадцать направлений, которые вы видели выше, входят в мою программу. А теперь посмотрим, во что обошлось бы купить их по частям - у разных экспертов и в разное время.</p>
+  <p>Вот рыночные цены на такие обучения, по нижней границе.</p>
+  <div class="mtab">
+    <div class="mrow2"><span>Маркетинг и стратегия: рынок, конкуренты, аудитория, позиционирование</span><b>от 200 000 ₽</b></div>
+    <div class="mrow2"><span>Закупка рекламы в социальных сетях: площадки, медиаплан, договоры</span><b>от 200 000 ₽</b></div>
+    <div class="mrow2"><span>Контент-завод: UGC-креаторы, амбассадоры, карманные блогеры</span><b>от 100 000 ₽</b></div>
+    <div class="mrow2"><span>Работа с региональным бизнесом и офлайн-компаниями</span><b>от 100 000 ₽</b></div>
+    <div class="mrow2"><span>Работа с контентом и сценарии для клиентов любой ниши</span><b>от 80 000 ₽</b></div>
+    <div class="mrow2"><span>Аналитика и экономика клиента: метрики, окупаемость, прогноз</span><b>от 70 000 ₽</b></div>
+    <div class="mrow2"><span>Воронки продаж и путь клиента</span><b>от 60 000 ₽</b></div>
+    <div class="mrow2"><span>Офлайн-реклама: телевидение, радио, СМИ, наружка</span><b>от 60 000 ₽</b></div>
+    <div class="mrow2"><span>Контекстная реклама</span><b>от 50 000 ₽</b></div>
+    <div class="mrow2"><span>PR и работа с инфоповодами</span><b>от 50 000 ₽</b></div>
+    <div class="mrow2"><span>Написание рекламных материалов</span><b>от 30 000 ₽</b></div>
+    <div class="mrow2"><span>Таргетированная реклама ВКонтакте</span><b>от 20 000 ₽</b></div>
+    <div class="mrow2"><span>Маркировка рекламы, законы и договоры</span><b>от 20 000 ₽</b></div>
+    <div class="mtot"><span>Итого по рыночным ценам, по нижней границе</span><b>1 040 000 ₽</b></div>
+  </div>
+
+  <div class="fomo" style="background:linear-gradient(140deg,#00c48c,#00a3ff);">
+    <div class="tag">А теперь сравните</div>
+    <h3>Моё обучение стоит как одно направление из этой таблицы</h3>
+    <p>Примерно как отдельный курс по маркетингу или отдельный курс по закупке рекламы. Но включает всё, что вы видите выше - все тринадцать направлений сразу и в одной системе.</p>
+    <div class="seats"><b>За стоимость одного направления вы получаете тринадцать</b></div>
+    <p style="margin-top:16px">Точную стоимость и варианты рассрочки пришлёт помощница школы - сейчас действует индивидуальное предложение.</p>
+  </div>
+
+  <div class="callout">И ещё одна цифра, которую почти никто не считает - <b>время.</b> Каждое такое обучение идёт от одного до двух месяцев, и проходить их пришлось бы по очереди.<br><br>Здесь это четыре месяца на всё - потому что вводную часть вы проходите один раз, а каждый новый инструмент сразу встраивается в то, что уже знаете.</div>
+
+  <div class="lbl b">И самое главное</div>
+  <h2>Всё, что выше, - <span class="b">это только знания</span></h2>
+  <p>В миллион не входит то, как это обучение устроено. А именно это определяет, будет у вас результат или нет.</p>
+
+  <div class="fcard">
+    <div class="fh">Я веду обучение сама. Все четыре месяца</div>
+    <p>Я лично читаю каждое домашнее задание каждого ученика и пишу, что именно не так и как исправить.</p>
+    <p>Сама отвечаю в чате каждый день. Сама провожу все созвоны - и групповые, и индивидуальные.</p>
+  </div>
+
+  <div class="fcard">
+    <div class="fh">Не поняли - разбираем один на один</div>
+    <p>Не поняли с лекции - спрашиваете в чате. Не помогло - разбираем на групповом созвоне. Всё ещё непонятно - садимся вдвоём, без ограничения по времени.</p>
+    <p>Именно поэтому за шесть лет не было ни одного человека, который не смог разобраться.</p>
+  </div>
+
+  <div class="fcard">
+    <div class="fh">Задания - симулятор работы, а не тесты</div>
+    <p>Проверить блогера, разобрать аудиторию, посчитать окупаемость, написать подачу, собрать стратегию. Вы делаете руками то, за что потом будете брать деньги.</p>
+    <p>К концу обучения у вас не конспекты, а опыт - на учебном клиенте или на вашем реальном.</p>
+  </div>
+
+  <div class="fcard">
+    <div class="fh">Рабочая тетрадь, которая остаётся с вами</div>
+    <p>Вы ведёте по ней клиента от анализа рынка до готовой стратегии. После обучения открываете её на реальном проекте и идёте по шагам - вспоминать и искать ничего не нужно.</p>
+  </div>
+
+  <div class="fcard">
+    <div class="fh">Готовые автоматизированные таблицы</div>
+    <p>Все расчёты - окупаемость, стоимость заявки, прогноз, декомпозиция - уже собраны. Подставляете цифры клиента и читаете ответ. Считать руками и разбираться в формулах не придётся.</p>
+  </div>
+
+  <div class="fcard">
+    <div class="fh">Чат вакансий школы</div>
+    <p>Бот собирает заказы со всех фриланс-площадок по всем направлениям, которым я учу. Я отбираю их вручную и выкладываю каждый день - это ваш вход в первые деньги.</p>
+  </div>
+
+  <div class="fcard">
+    <div class="fh">Диплом о профессиональной переподготовке</div>
+    <p>Школа первой в нише получила государственную лицензию. Диплом вносится в государственный реестр и отображается на Госуслугах - это документ, а не сертификат об участии.</p>
+    <p>Он входит в стоимость обучения, и платит за него школа.</p>
+  </div>
+
+  <div class="big">
+    <h3>Попробуйте найти это за те же деньги</h3>
+    <p>Я искала - такого нет. <b>Когда эксперт работает с учениками лично столько времени и с отработкой такого объёма знаний - это стоит совсем других денег.</b> Обычно вы платите за доступ к урокам, а всё остальное делаете сами.</p>
+    <p style="margin-top:14px"><span class="hl">Знания можно купить по частям за миллион. Формат, в котором вас доводят до результата, купить нельзя вообще - его либо дают, либо нет.</span></p>
+  </div>
+
+  <div class="lbl r">И самое важное про сроки</div>
+  <h2>18 поток - <span class="r">последний</span></h2>
+  <div class="fomo">
+    <div class="tag">Школа закрывается</div>
+    <h3>Девятнадцатого потока не будет</h3>
+    <p>Шесть лет, семнадцать потоков - и восемнадцатый последний. Я ухожу в работу со своими агентствами, и формат, где я четыре месяца лично веду каждого ученика, заканчивается.</p>
+    <p style="margin-top:12px"><b>Это значит простую вещь.</b> После этого потока собрать всё это в одном месте будет негде. Останется добирать знания по частям - и платить за каждое направление отдельно, по ценам из таблицы выше.</p>
+    <ul>
+      <li>Маркетинг и реклама в одной программе - за стоимость одного направления</li>
+      <li>Эксперт ведёт обучение сам все четыре месяца</li>
+      <li>Диплом о профпереподготовке в государственном реестре</li>
+      <li>Доступ к материалам полтора года - прощальная фишка последнего потока</li>
+    </ul>
+    <div class="seats"><b>Осталось 6 мест</b>Набор ограничен, потому что я обучаю лично</div>
+  </div>
+
+  <div class="lbl a">Что делать дальше</div>
+  <h2>Как узнать <span class="r">стоимость и условия</span></h2>
+  <p>Точную цену я на страницу не ставлю: она зависит от срока рассрочки, и считать её правильнее под вас. Скажу только главное - <b>войти можно от 5 700 ₽ в месяц, без первого взноса, первый платёж через месяц.</b></p>
+
+  <div class="fomo">
+    <div class="tag">Индивидуальное предложение</div>
+    <h3>Напишите помощнице школы - и получите все условия</h3>
+    <p>Вам расскажут, сколько стоит обучение, посчитают варианты рассрочки под вас и ответят на любые вопросы. И скажут прямо, если увидят, что обучение вам не подходит.</p>
+    <p style="margin-top:16px">Просто отправьте одно слово:</p>
+    <div class="seats"><b>ОБУЧЕНИЕ</b>напишите его помощнице школы - и вам расскажут всё про обучение и условия</div>
+    <a class="cta2" href="https://t.me/alina_sevalkina" target="_blank" rel="noopener">Написать слово ОБУЧЕНИЕ →</a>
+  </div>
+
+  <div class="big">
+    <h3>И напоследок</h3>
+    <p>Вы посмотрели на цифры сами. Знания по рынку - больше миллиона. Формат, в котором их дают, не продаётся отдельно ни за какие деньги. И всё это уходит вместе с восемнадцатым потоком.</p>
+    <p style="margin-top:14px"><span class="hl">Вопрос не в том, потратите вы эти деньги или нет. Вопрос только в том, потратите вы их один раз сейчас - или по частям и дороже в течение следующих лет.</span></p>
+  </div>
+
+  <footer>Школа Александры Самородовой · профессия «маркетолог в сфере рекламы» · 18 поток, старт 5 октября</footer>
+</div>
+
+<script>
+</script>
+</body>
+</html>
